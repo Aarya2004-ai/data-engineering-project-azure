@@ -1,0 +1,32 @@
+{
+	"name": "parameters_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DataLakestorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "parameter.json",
+				"fileSystem": "parameters"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"relative_url": {
+					"type": "string"
+				},
+				"relative_url_sink": {
+					"type": "string"
+				},
+				"file_rurl_sink": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
