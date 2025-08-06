@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adventureworksdedatafactory"
+		},
+		"DataLakestorage_accountKey": {
+			"value": ""
+		},
+		"DataLakestorage_properties_typeProperties_url": {
+			"value": "https://dataenggprojectstorage.dfs.core.windows.net/"
+		},
+		"githubls_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
